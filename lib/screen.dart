@@ -38,6 +38,8 @@ class _DiceState extends State<Dice> {
           padding: const EdgeInsets.all(10),
           child: Column(
             children: [
+              Text("Dice App Products",style: TextStyle(fontSize: 19,fontWeight: FontWeight.bold),),
+              SizedBox(height: 17,),
               TextField(
                 controller: txtno,
                 decoration: InputDecoration(
